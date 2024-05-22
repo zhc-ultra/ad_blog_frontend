@@ -1,0 +1,5 @@
+// 使用open api 更具接口文档生成前端请求代码
+openapi --input http://127.0.0.1:8101/api/v2/api-docs --output ./generated --client axios
+
+// 后端接口地址
+http://127.0.0.1:8101/api/v2/api-docs

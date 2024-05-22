@@ -1,0 +1,33 @@
+{
+  "name": "algo_evaluator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.55.2",
+    "@bytemd/plugin-gfm": "^1.21.0",
+    "@bytemd/plugin-highlight": "^1.21.0",
+    "@bytemd/vue-next": "^1.21.0",
+    "axios": "^1.7.0",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "monaco-editor": "^0.48.0",
+    "monaco-editor-webpack-plugin": "^7.1.0",
+    "openapi-typescript-codegen": "^0.29.0",
+    "prettier": "^2.4.1",
+    "typescript": "~4.5.5"
+  }
+}
