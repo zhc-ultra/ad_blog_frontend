@@ -18,7 +18,7 @@
             <!--logo图片-->
             <img class="logo" src="../assets/logo.png" alt="#" />
             <!--网站名称-->
-            <div class="title">Algo Evaluator</div>
+            <div class="title">AD Blog</div>
           </div>
         </a-menu-item>
         <!--根据路由动态渲染导航项-->

@@ -1,11 +1,12 @@
 <template>
   <div class="home">
-    <MDEditor :value="value" :handle-change="onChange" />
+    <!-- 引入MD编辑器 -->
+    <!--    <MDEditor :value="value" :handle-change="onChange" />-->
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import {ref} from "vue";
 import MDEditor from "@/components/MDEditor.vue";
 
 const value = ref();
